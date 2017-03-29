@@ -1,0 +1,350 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto");
+
+* {
+    font-family: "Roboto", sans-serif;
+}
+
+body {
+	margin: 0;
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+header {
+	background-color : #3f51b5;
+	width: 100%;
+	text-align: center;
+	padding-top: 2em;
+	padding-bottom: 2em;
+}
+
+.avatar {
+	width: 160px;
+	height: 160px;
+	border-radius: 50%;
+}
+
+header h3 {
+	color: white;
+	margin-bottom: 3px;
+	font-weight: lighter;
+}
+
+header p {
+	background-color: #FAF46A;
+	border-radius: 4px;
+	display: inline-block;
+	color: grey;
+	font-size: 15px;
+	font-style: italic;
+	padding: 3px 10px 3px 10px;
+	margin: 0;
+}
+
+nav {
+	text-align: center;
+}
+
+nav li {
+	display: inline-block;
+	padding-top: 35px;
+}
+
+nav li a {
+	font-size: 2.7em;
+	color: white;
+	padding-top: 0.2em;
+	padding-bottom: 0.2em;
+	padding-left: 0.5em;
+	padding-right: 0.5em;
+}
+
+nav li a:hover {
+	background-color: rgba(0,0,0,0.16);
+}
+
+.container {
+	margin-left: 15%;
+	margin-right: 15%;
+}
+
+.row1 {	
+	height: 300px;
+	padding-top: 20px;
+	text-align: center;
+	overflow: hidden;
+}
+
+.row1 .col {
+	display: inline-block;
+}
+
+.aboutme {
+	padding-right: 1%;
+	width: 60%;
+}
+
+.aboutme > h2 {
+	padding-right: 75%;
+	font-weight: lighter;
+	color: #3f51b5;
+}
+
+.text-aboutme p {
+	font-size: 150%;
+}
+
+.text-aboutme strong:nth-child(1) {
+	color: #3f51b5;
+}
+
+.text-aboutme strong:nth-child(3) {
+	color: #3f51b5;
+}
+
+.tweets {
+	width: 30%;
+}
+
+.tweets .title a {
+	padding-right: 30%;
+	font-weight: lighter;
+	color: rgb(255, 64, 129);
+}
+
+.text-tweets p {
+	background-color: rgb(197, 202, 233);
+	font-size: 0.9em;
+	padding-top: 40px;
+	padding-bottom: 40px;
+	padding-left: 10%;
+	padding-right: 10%;
+
+}
+
+.row2 {
+	height: 260px;
+	color: rgba(255,255,255,0.65);
+	text-align: center;
+}
+
+.row2 .col {
+	background-color: #3f51b5;
+	width: 30%;
+	display: inline-block;
+	padding-top: 20px;
+	margin-left: 1%;
+	margin-right: 1%;
+	float: left;
+}
+
+.row2 .col > li {
+	font-size: 1.5em;
+}
+
+.row2 .col > li > a {
+	color: rgba(255,255,255,0.65);
+}
+
+.row2 .col > a {
+	color: rgba(255,255,255,0.65);
+}
+
+.row2 .col > p {
+	font-size: 0.9em;
+}
+
+.row2 .col > p:last-child {
+	padding-top: 2em;
+	padding-bottom: 2em;
+	border-top: 1px solid rgba(170, 215, 241, 0.2);
+}
+
+.row3 {
+	margin-top: 50px;
+	text-align: center;
+}
+
+.row3 > a {
+	background-color: rgb(255, 64, 129);
+	display: inline-block;
+	color: white;
+	font-weight: bolder;
+	padding: 0px 30px 0px 30px;
+}
+
+.row4 {
+	padding-top: 70px;
+	height: 585px;
+	text-align: center;
+	margin-bottom: 8%;
+}
+
+.row4 > h2 {
+	color: #3f51b5;
+	font-weight: lighter;
+	text-align: left;
+	padding-left: 10%;
+}
+
+.row4 .col {
+	text-align: left;
+	width: 30%;
+	display: inline-block;
+	border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.row4 .col > h2 {
+	color: white;
+	padding-top: calc(100% - 80px);
+	padding-bottom: 20px;
+	padding-left: 20px;
+	border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+	margin: 0;
+}
+
+.row4 .col > p {
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-bottom: 50px;
+}
+
+.row4 .col:nth-child(2) > h2 {
+	background-image: url("http://www.webonise.co.uk/images/philosophy.png");
+}
+
+.row4 .col:nth-child(3) > h2 {
+	background-image: url("http://www.webonise.co.uk/images/mission.jpg");
+}
+
+.row4 .col:last-child > h2 {
+	background-image: url("http://www.webonise.co.uk/images/process.jpg");
+}
+
+.row5 {
+	height: 524px;
+	overflow: hidden;
+	text-align: center;
+	color: white;
+}
+
+.row5 > h2 {
+	color: #3f51b5;
+	font-weight: lighter;
+	text-align: left;
+	padding-left: 10%;
+}
+
+.row5 .col {
+	width: 23%;
+	height: 180px;
+	display: inline-block;
+	background-color: rgb(245, 0, 87);
+}
+
+.row6 {
+	height: 383px;
+	overflow: hidden;
+}
+
+.row6 > h2 {
+	color: rgb(255, 64, 129);
+	font-weight: lighter;
+	text-align: left;
+	padding-left: 10%;
+}
+
+.row6 .col {
+	width: 30%;
+}
+
+.row7 {
+	height: 337px;
+	overflow: hidden;
+}
+
+.row7 > h2 {
+	color: rgb(255, 64, 129);
+	font-weight: lighter;
+	text-align: left;
+	padding-left: 10%;
+}
+
+.row7 .col {
+	width: 30%;
+}
+
+.chatIcon {
+	border-radius: 50%;
+	background-color: #F44336;
+	height: 55px;
+	width: 55px;
+	position: fixed;
+	top: calc(100% - 80px);
+	left: calc(100% - 80px);
+	text-align: center;
+	font-size : 25px;
+}
+
+.chatIcon p {
+	color: white;
+	padding-top: 10px;
+	margin: 0;
+}
+
+footer {
+	background-color: #3f51b5;
+	background-position : bottom;
+	background-repeat: no-repeat;
+	text-align: center;
+	color: white;
+}
+
+.footer-top {
+	padding-top: 30px;
+	padding-bottom: 30px;
+	display: inline-block;
+}
+
+.footer-top h3 {
+	letter-spacing: 4px;
+}
+
+.footer-top p {
+	font-size: 18px;
+	width: 50%;
+	margin: 0 auto 40px;
+}
+
+.footer-top li {
+	display: inline-block;
+}
+
+.footer-top li a {
+	color: #d1d1d1;
+	font-size: 80px;
+}
+
+.footer-top li a:hover {
+	color: white;
+}
+
+.footer-bottom {
+	background-color: rgb(48, 63, 159);
+	width : 100%;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.footer-bottom p {
+	font-size: 15px;
+	color: white;
+	margin: 0;
+}
+
+.footer-bottom p a {
+	color: red;
+}
